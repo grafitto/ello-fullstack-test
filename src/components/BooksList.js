@@ -6,14 +6,14 @@ import Book from './Book';
 const BooksList = ({ books }) => {
   return (
     <Stack
-      xs={12}
+      xs={8}
       direction={{ xs: 'column', sm: 'row' }}
       spacing={4}
       alignContent='center'
       justifyContent='center'
       marginTop={4}
     >
-      <Grid container spacing={2}>
+      <Grid container spacing={2} justifyContent='center'>
         {books.map((book, index) => (
           <Book book={book} key={index} />
         ))}
