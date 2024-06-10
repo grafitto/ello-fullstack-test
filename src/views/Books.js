@@ -42,15 +42,12 @@ function Books() {
       >
         <Grid container justifyContent='center'>
           <Button variant='outlined' sx={{ marginRight: '10px' }}>
-            <a href='/' style={{ textDecoration: 'none !important' }}>
+            <a href='/' style={{ textDecoration: 'none' }}>
               <Typography sx={{ minWidth: 100 }}>All Books</Typography>
             </a>
           </Button>
           <Button variant='outlined'>
-            <a
-              href='/reading-list'
-              style={{ textDecoration: 'none !important' }}
-            >
+            <a href='/reading-list' style={{ textDecoration: 'none' }}>
               <Typography sx={{ minWidth: 100 }}>Reading List</Typography>
             </a>
           </Button>

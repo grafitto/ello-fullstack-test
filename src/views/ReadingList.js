@@ -23,11 +23,8 @@ const ReadingList = () => {
         }}
       >
         <Grid container justifyContent='center'>
-          <Button
-            variant='outlined'
-            sx={{ marginRight: '10px', textDecoration: 'none !important' }}
-          >
-            <a href='/'>
+          <Button variant='outlined' sx={{ marginRight: '10px' }}>
+            <a href='/' style={{ textDecoration: 'none' }}>
               <Typography sx={{ minWidth: 100 }}>Back</Typography>
             </a>
           </Button>
